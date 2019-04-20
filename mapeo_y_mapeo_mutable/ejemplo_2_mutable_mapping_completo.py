@@ -74,7 +74,8 @@ class MiDiccionarioEspecialDeDulces(abc.MutableMapping,
         return self
 
     def __repr__(self):
-        return '{self.__class__.__name__}({self.diccionario_de_dulces_con_sus_calorias}, cosas_que_no_son_dulces={self.cosas_que_no_son_dulces})'.format(
+        return '{self.__class__.__name__}({self.diccionario_de_dulces_con_sus_calorias}, ' \
+               'cosas_que_no_son_dulces={self.cosas_que_no_son_dulces})'.format(
             self=self)
 
     def __str__(self):
