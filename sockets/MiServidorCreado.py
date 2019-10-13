@@ -40,7 +40,7 @@ class MiControladorTCP(socketserver.BaseRequestHandler):
                 self.request.sendall(bytes(respuesta_en_str, encoding='utf8'))
                 print('[Servidor 6] Se ha respondido al cliente con el mensaje: {}'.format(respuesta_en_str))
             else:
-                print('[Servidor 7] El cliente a cerrado el Socket desde su lado, cerrando socket desde el Servidor...')
+                print('[Servidor 7] El cliente ha cerrado el Socket desde su lado, cerrando socket desde el Servidor...')
                 socket_abierto = False
 
 
