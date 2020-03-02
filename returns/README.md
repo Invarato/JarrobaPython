@@ -3,4 +3,4 @@ El código de esta carpeta forma parte del artículo https://jarroba.com/returns
 
 
 ## Nota sobre las versiones de Python
-En estos ejemplos se utilizó para su creación la versión 3.7 de Python.
+Para crear estos ejemplos se utilizó la versión 3.7 de Python.
